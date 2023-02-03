@@ -320,7 +320,7 @@ const Dashboard = () => {
                 <div className="col-8 col-sm-12 col-xl-8 my-auto">
                   <div className="d-flex d-sm-block d-md-flex align-items-center">
                     <h4 className="mb-0">
-                      {frznBalance ? frznBalance : 0} (TRCT)
+                      {frznBalance ? frznBalance : 0} (SLR)
                     </h4>
                   </div>
                 </div>
@@ -336,7 +336,7 @@ const Dashboard = () => {
                 <div className="col-8 col-sm-12 col-xl-8 my-auto">
                   <div className="d-flex d-sm-block d-md-flex align-items-center">
                     <h4 className="mb-0">
-                      {tokenBalance ? tokenBalance : 0} (TRCT)
+                      {tokenBalance ? tokenBalance : 0} (SLR)
                     </h4>
                   </div>
                 </div>
@@ -414,7 +414,7 @@ const Dashboard = () => {
                 <div className="col-8 col-sm-12 col-xl-8 my-auto">
                   <div className="d-flex d-sm-block d-md-flex align-items-center">
                     <h4 className="mb-0">
-                      {tokenRewarded ? tokenRewarded : 0} (TRCT)
+                      {tokenRewarded ? tokenRewarded : 0} (SLR)
                     </h4>
                   </div>
                 </div>
@@ -447,7 +447,7 @@ const Dashboard = () => {
                 <div className="col-8 col-sm-12 col-xl-8 my-auto">
                   <div className="d-flex d-sm-block d-md-flex align-items-center">
                     <h4 className="mb-0">
-                      {nextReward ? nextReward : 0} (TRCT)
+                      {nextReward ? nextReward : 0} (SLR)
                     </h4>
                   </div>
                 </div>
@@ -458,7 +458,7 @@ const Dashboard = () => {
 
         <div className="col-sm-12 grid-margin">
           <div className="card">
-            <div className="card-body text-center">TRCT contract 0x2eD68EF708f0a04eaeb705D1A5700F72E9a6054C</div>
+            <div className="card-body text-center">SLR contract 0x5aC1b6a0C16E3e450487052B9E9f1DB0e23352df</div>
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 grid-margin">
