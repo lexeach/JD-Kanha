@@ -458,7 +458,7 @@ const Dashboard = () => {
 
         <div className="col-sm-12 grid-margin">
           <div className="card">
-            <div className="card-body text-center">SLR contract 0x5aC1b6a0C16E3e450487052B9E9f1DB0e23352df</div>
+            <div className="card-body text-center">SLR address 0x43cD61f2B487847dC73ABC5b6A2B72Ee7E989D02</div>
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 grid-margin">
