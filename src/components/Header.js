@@ -15,7 +15,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 
-import Logo from "../assets/images/logo.jpeg";
+import Logo from "../assets/images/logo.png";
 import Web3 from "web3";
 
 const drawerWidth = 240;
