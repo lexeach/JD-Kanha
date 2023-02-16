@@ -282,13 +282,14 @@ const Dashboard = () => {
       console.log("params", param_values);
     });
   }
-  // your function to copy here
+ // your function to copy here
   const copyToClipBoard = async () => {
     try {
       let ICU_ = new web3.eth.Contract(ICU.ABI, ICU.address);
-      let { id } = await ICU_.methods.users(userAc).call();
+      let userDetail = await ICU_.methods.users(userAc).call();
+      let { id } = userDetail;
       if (parseInt(id) === 0) {
-        alert("Referral Id not found");
+        alert("Refrel Id not found");
         return;
       }
       let refLink = `${ClientBaseURL}?refid=${id}&abcref=123xyz`;
@@ -523,10 +524,10 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-
+        {/* copy link  */}
         <div className="col-12 text-center">
           <button className={`ref-btn`} onClick={copyToClipBoard}>
-            Click here to copy your Referral link
+            Click here to copy your Refral link
           </button>
           {copySuccess === true ? (
             <span className="ref-btn-success">✓ copied.</span>
